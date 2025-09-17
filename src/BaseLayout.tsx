@@ -12,7 +12,9 @@ export default function BaseLayout({ children }: BaseLayoutProps) {
   return (
     <div className="base-layout">
       <header className="logo-header">
-        <img src={logoImg} alt="dEEEvelopers Logo" className="logo-img" />
+        <Link to="/">
+          <img src={logoImg} alt="dEEEvelopers Logo" className="logo-img" />
+        </Link>
       </header>
       <nav className="navbar">
         <ul>
