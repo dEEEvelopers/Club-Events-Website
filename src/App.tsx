@@ -15,11 +15,11 @@ function App() {
   return (
     <BaseLayout>
       <Routes>
-        <Route path="/" element={<BlankPage title="Home" />} />
-        <Route path="/projects" element={<BlankPage title="Projects" />} />
-        <Route path="/events" element={<BlankPage title="Events" />} />
-        <Route path="/workshops" element={<BlankPage title="Workshops" />} />
-        <Route path="/more" element={<BlankPage title="More" />} />
+        <Route path="/Club-Events-Website/" element={<BlankPage title="Home" />} />
+        <Route path="/Club-Events-Website/projects" element={<BlankPage title="Projects" />} />
+        <Route path="/Club-Events-Website/events" element={<BlankPage title="Events" />} />
+        <Route path="/Club-Events-Website/workshops" element={<BlankPage title="Workshops" />} />
+        <Route path="/Club-Events-Website/more" element={<BlankPage title="More" />} />
       </Routes>
     </BaseLayout>
   );

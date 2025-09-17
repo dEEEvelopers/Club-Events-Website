@@ -18,11 +18,11 @@ export default function BaseLayout({ children }: BaseLayoutProps) {
       </header>
       <nav className="navbar">
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/projects">Projects</Link></li>
-          <li><Link to="/events">Events</Link></li>
-          <li><Link to="/workshops">Workshops</Link></li>
-          <li><Link to="/more">More</Link></li>
+          <li><Link to="/Club-Events-Website/">Home</Link></li>
+          <li><Link to="/Club-Events-Website/projects">Projects</Link></li>
+          <li><Link to="/Club-Events-Website/events">Events</Link></li>
+          <li><Link to="/Club-Events-Website/workshops">Workshops</Link></li>
+          <li><Link to="/Club-Events-Website/more">More</Link></li>
         </ul>
       </nav>
       <main className="content">
