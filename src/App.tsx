@@ -16,7 +16,7 @@ function App() {
   return (
     <BaseLayout>
       <Routes>
-        <Route path="/Club-Events-Website/" element={<Home title="Home" />} />
+        <Route path="/Club-Events-Website/" element={<Home />} />
         <Route path="/Club-Events-Website/projects" element={<BlankPage title="Projects" />} />
         <Route path="/Club-Events-Website/events" element={<BlankPage title="Events" />} />
         <Route path="/Club-Events-Website/workshops" element={<BlankPage title="Workshops" />} />
