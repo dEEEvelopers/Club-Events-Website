@@ -2,11 +2,10 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-    background: #181a1b;
-    min-width: 100vw;
-    width: 100vw;
-    height: 100vh;
-    color: #f3f3f3;
+  background: #181a1b;
+  min-width: 100vw;
+  width: 100vw;
+  color: #f3f3f3;
 }
 
 .logo-header {

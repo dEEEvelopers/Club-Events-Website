@@ -33,8 +33,8 @@ function Home() {
                         </p>
                         <h3>Our Mission</h3>
                         <p>To inspire, educate, and empower EEE/IEM students for software development</p>
-                        <h3>2025's Focus</h3>
-                        <p>Our core focus for 2025 is on <b>Full Stack Development</b></p>
+                        <h3>2025 Vision</h3>
+                        <p>Our core focus for 2025 is on advocating for <br></br><b>Full Stack Development</b></p>
                     </div>
                 </section>
                 <section className="image">
@@ -49,7 +49,7 @@ function Home() {
                     <div>
                         <h3>Fostering Innovative & Challenging Projects</h3>
                         <h3>Hosting Exciting Workshops & Events</h3>
-                        <h3>Supporting and nurturing peer learning</h3>
+                        <h3>Supporting and Nurturing Peer Learning</h3>
                         <h3>Connect with Industry Professionals</h3>
                     </div>
                 </section>
@@ -68,7 +68,7 @@ function Home() {
 
                 <section className="connect" style={{height: '20vh'}}>
                     <div>
-                        <h2>Our Socials</h2>
+                        <h2>Connect with Us</h2>
                         <div className="socials">
                             <a href="https://www.linkedin.com/company/ntu-eee-deeevelopers/" className="fa fa-linkedin"></a>
                             <a href="https://www.instagram.com/deeevelopersntu/" className="fa fa-instagram"></a>
