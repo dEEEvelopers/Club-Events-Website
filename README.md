@@ -13,6 +13,7 @@ This is the official website for the dEEEvelopers club, built with React and Vit
 1. Install dependencies:
    ```powershell
    npm install
+   npm install lucide-react
    ```
 2. Start the development server:
    ```powershell
