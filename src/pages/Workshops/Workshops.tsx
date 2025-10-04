@@ -7,6 +7,7 @@ import workatoImg from '../../assets/workshops_img/workato2024.jpg';
 import webdevImg from '../../assets/workshops_img/webdevFeb2025.jpg';
 import tabImg from '../../assets/workshops_img/tableu2025.jpg';
 import embImg from '../../assets/workshops_img/embroidery.jpg';
+import gitImg from '../../assets/workshops_img/git2025.jpg';
 
 interface Workshop {
   id: number;
@@ -89,7 +90,7 @@ export default function Workshops() {
       instructor: "CJ, Zhi Min, Nicholas, Jia Rui, Finn",
       description: "Take control of your code with Git and GitHub, collaborate effortlessly, and manage projects like a pro.",
       resources: "https://www.canva.com/design/DAGxs9Z5Rog/JUy5zcZ5AQcZt-tl2lCWvQ/edit",
-      image: "https://www.gizmochina.com/wp-content/uploads/2024/03/Github.jpg",
+      image: gitImg,
       tags: ["Version Control", "Collaboration", "Project Management"]
     },
     {
