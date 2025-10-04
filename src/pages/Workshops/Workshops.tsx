@@ -270,7 +270,7 @@ export default function Workshops() {
                       <ChevronRight size={16} />
                     </a>
                   ) : (
-                    <span className="no-resources">No available resources</span>
+                    <span className="no-resources"></span>
                   )}
                 </div>
               </div>
