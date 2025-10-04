@@ -127,11 +127,11 @@ export default function Workshops() {
     },
     {
       id: 10,
-      title: "Python Course",
+      title: "Python for the Web",
       date: "Every Thursday | 4:30pm-6:00pm",
       category: "Lesson Series",
       instructor: "Wong Jia Jun",
-      description: "Strengthen your Python skills by exploring core concepts, writing clean code, and building practical projects.",
+      description: "An introduction to using Python on the web—learn the basics of web apps, handling data, and building your first interactive projects step by step.",
       resources: "https://github.com/doubleudoublej/python-course",
       image: "https://www.xbasic.org/wp-content/uploads/2022/07/Python.jpg",
       tags: ["Python", "Web", "Algorithms", "Beginner"]
