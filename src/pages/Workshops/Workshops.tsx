@@ -157,11 +157,28 @@ export default function Workshops() {
     };
   });
 
-  // Sort workshops: Lesson Series -> Current Workshops -> Past Workshops
+  // Sort workshops: Lesson Series -> Current Workshops (asc) -> Past Workshops (desc)
   const sortOrder = ["Lesson Series", "Current Workshops", "Past Workshops"];
-  const sortedWorkshops = [...categorizedWorkshops].sort(
-    (a, b) => sortOrder.indexOf(a.category) - sortOrder.indexOf(b.category)
-  );
+  const sortedWorkshops = [...categorizedWorkshops].sort((a, b) => {
+    const categoryDiff = sortOrder.indexOf(a.category) - sortOrder.indexOf(b.category);
+    if (categoryDiff !== 0) return categoryDiff;
+
+    // Sort Current Workshops by soonest first
+    if (a.category === "Current Workshops" && b.category === "Current Workshops") {
+      const dateA = new Date(a.date).getTime();
+      const dateB = new Date(b.date).getTime();
+      return dateA - dateB; // ascending
+    }
+
+    // Sort Past Workshops by latest first
+    if (a.category === "Past Workshops" && b.category === "Past Workshops") {
+      const dateA = new Date(a.date).getTime();
+      const dateB = new Date(b.date).getTime();
+      return dateB - dateA; // descending
+    }
+
+    return 0;
+  });
 
   const categories = ['All', ...new Set(categorizedWorkshops.map(w => w.category))];
 
