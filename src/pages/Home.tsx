@@ -47,10 +47,16 @@ function Home() {
                 <section className="card">
                     <h2>Why join us?</h2>
                     <div>
-                        <h3>Fostering Innovative & Challenging Projects</h3>
-                        <h3>Hosting Exciting Workshops & Events</h3>
-                        <h3>Supporting and Nurturing Peer Learning</h3>
-                        <h3>Connect with Industry Professionals</h3>
+                        <li>
+                            <h3>Fostering Innovative & Challenging Projects</h3>
+                        </li>
+                        <li>
+                            <h3>Hosting Exciting Workshops & Events</h3>
+                        </li>
+                        <li>
+                            <h3>Connect with Industry Professionals</h3>
+                        </li>
+                        
                     </div>
                 </section>
 
@@ -66,7 +72,7 @@ function Home() {
                     <img src={google_hackathon}></img>
                 </section>
 
-                <section className="connect" style={{height: '20vh'}}>
+                <section className="connect">
                     <div>
                         <h2>Connect with Us</h2>
                         <div className="socials">
