@@ -1,10 +1,10 @@
 import './Home.css';
-import '../socialmedia.css'
-import deevelopers_photo from '../assets/deeevelopers.jpg'
+import '../../socialmedia.css'
+import deevelopers_photo from '../../assets/deeevelopers.jpg'
 //import image1 from '../assets/github_workshop.jpg'
 //import image2 from '../assets/github_workshop_2.jpg'
-import singtel_visit from '../assets/singtel_visit.jpg'
-import google_hackathon from '../assets/google_hackathon.jpg'
+import singtel_visit from '../../assets/singtel_visit.jpg'
+import google_hackathon from '../../assets/google_hackathon.jpg'
 
 /*
 Club Logo, Mission Tagline
