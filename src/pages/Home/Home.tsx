@@ -21,7 +21,7 @@ function Home() {
             
             <div className="homeContainer">
                 <section className="connect" style={{padding: "1rem", height: "auto", paddingBottom: "1rem"}}>
-                    <h1 style={{fontFamily: "monospace"}}>dEEEvelopers.</h1>
+                    <h1 style={{fontFamily: "monospace"}}>dEEEvelopers</h1>
                     <h2 style={{textAlign: "center"}}>Where Coders Become Creators</h2>
 
                 </section>
